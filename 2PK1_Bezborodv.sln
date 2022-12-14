@@ -19,11 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PZ_16", "PZ_16\PZ_16.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Game", "PZ_17\Game.csproj", "{509118EA-8DA5-4732-8DD1-E8BA1CF15375}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PZ__17", "PZ__17\PZ__17.csproj", "{40BE390D-075D-4E86-BC69-BC5B6EE4486E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PZ__17", "PZ__17\PZ__17.csproj", "{40BE390D-075D-4E86-BC69-BC5B6EE4486E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_indexingPoints", "..\PointersLesson\3_indexingPoints\3_indexingPoints.csproj", "{B96BC19B-0217-4F43-AC96-550305DD1D5D}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2_indexingPoints", "..\PointersLesson\indexingPoints\2_indexingPoints.csproj", "{08760EDC-A27D-4145-8C82-7938D437A984}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PZ_18", "PZ_18\PZ_18.csproj", "{906D8DD2-10B9-4565-9BAF-A58E45183F1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,14 +65,10 @@ Global
 		{40BE390D-075D-4E86-BC69-BC5B6EE4486E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40BE390D-075D-4E86-BC69-BC5B6EE4486E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40BE390D-075D-4E86-BC69-BC5B6EE4486E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B96BC19B-0217-4F43-AC96-550305DD1D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B96BC19B-0217-4F43-AC96-550305DD1D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B96BC19B-0217-4F43-AC96-550305DD1D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B96BC19B-0217-4F43-AC96-550305DD1D5D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{08760EDC-A27D-4145-8C82-7938D437A984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{08760EDC-A27D-4145-8C82-7938D437A984}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{08760EDC-A27D-4145-8C82-7938D437A984}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{08760EDC-A27D-4145-8C82-7938D437A984}.Release|Any CPU.Build.0 = Release|Any CPU
+		{906D8DD2-10B9-4565-9BAF-A58E45183F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{906D8DD2-10B9-4565-9BAF-A58E45183F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{906D8DD2-10B9-4565-9BAF-A58E45183F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{906D8DD2-10B9-4565-9BAF-A58E45183F1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
