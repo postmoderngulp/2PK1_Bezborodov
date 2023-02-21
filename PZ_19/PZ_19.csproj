@@ -8,3 +8,42 @@
   </PropertyGroup>
 
 </Project>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1 @2)" Visibility="Hidden" />
+    <Node Id="(@3 Namespace=PZ_23 Type=Computer)" Category="CodeSchema_Class" CodeSchemaProperty_IsPublic="True" CommonLabel="Computer" Icon="Microsoft.VisualStudio.Class.Public" IsDragSource="True" Label="Computer" SourceLocation="(Assembly=file:///C:/Users/1/source/repos/2PK1_Bezborodv-master/PZ_23/Computer.cs StartLineNumber=2 StartCharacterOffset=21 EndLineNumber=2 EndCharacterOffset=29)" />
+  </Nodes>
+  <Links>
+    <Link Source="(@1 @2)" Target="(@3 Namespace=PZ_23 Type=Computer)" Category="Contains" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Class" Label="Класс" BasedOn="CodeSchema_Type" Icon="CodeSchema_Class" />
+    <Category Id="CodeSchema_Type" Label="Тип" Icon="CodeSchema_Class" />
+    <Category Id="Contains" Label="Содержит" Description="Указывает, содержит ли источник связи целевой объект" IsContainment="True" />
+  </Categories>
+  <Properties>
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Является Public" Description="Флаг, указывающий на область видимости Public" DataType="System.Boolean" />
+    <Property Id="CommonLabel" DataType="System.String" />
+    <Property Id="Icon" Label="Значок" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsDragSource" Label="IsDragSource" Description="IsDragSource" DataType="System.Boolean" />
+    <Property Id="Label" Label="Метка" Description="Отображаемая метка аннотируемого объекта" DataType="System.String" />
+    <Property Id="SourceLocation" Label="Номер начальной строки" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+    <Property Id="Visibility" Label="Видимость" Description="Определяет, является ли видимым узел в графе" DataType="System.Windows.Visibility" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Сборка" ValueType="Uri" />
+    <Name Id="File" Label="Файл" ValueType="Uri" />
+    <Name Id="Namespace" Label="Пространство имен" ValueType="System.String" />
+    <Name Id="Type" Label="Тип" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(VsSolutionUri)/PZ_23/PZ_23.csproj" />
+    <Alias n="2" Uri="File=$(VsSolutionUri)/PZ_23/Computer.cs" />
+    <Alias n="3" Uri="Assembly=$(10e75560-6123-4c36-b5a9-6b4a74c87383.OutputPathUri)" />
+  </IdentifierAliases>
+  <Paths>
+    <Path Id="10e75560-6123-4c36-b5a9-6b4a74c87383.OutputPathUri" Value="file:///C:/Users/1/source/repos/2PK1_Bezborodv-master/PZ_23/bin/Debug/net6.0/PZ_23.dll" />
+    <Path Id="VsSolutionUri" Value="file:///C:/Users/1/source/repos/2PK1_Bezborodv-master" />
+  </Paths>
+</DirectedGraph>
